@@ -176,6 +176,7 @@ function buildUserClass(userInput) {
 
   // Child: quote wrapper
   registerBlockType(QUOTE, {
+    apiVersion: 3,
     title: __('Semantic Blockquote: Quote', 'semantic-text-formats'),
     description: __('Inner block used by Semantic Blockquote (do not insert directly).', 'semantic-text-formats'),
     category: 'text',
@@ -211,6 +212,7 @@ function buildUserClass(userInput) {
 
   // Child: figcaption wrapper
   registerBlockType(CAPTION, {
+    apiVersion: 3,
     title: __('Semantic Blockquote: Figcaption', 'semantic-text-formats'),
     description: __('Inner block used by Semantic Blockquote (do not insert directly).', 'semantic-text-formats'),
     category: 'text',
@@ -246,6 +248,7 @@ function buildUserClass(userInput) {
 
   // Parent: figure wrapper with toggle to include/remove figcaption
   registerBlockType(PARENT, {
+    apiVersion: 3,
     title: __('Semantic Blockquote', 'semantic-text-formats'),
     description: __('A blockquote wrapped in a figure with an optional figcaption that supports full Paragraph block features.', 'semantic-text-formats'),
     category: 'text',

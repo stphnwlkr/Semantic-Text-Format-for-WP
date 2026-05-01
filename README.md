@@ -1,9 +1,8 @@
 === Semantic Text Formats for WP ===
 
-Contributors:      Telex - https://telex.automattic.ai/projects/85965f99
 Tags:              semantic, quote, citation, abbreviation, definition
 Tested up to:      6.9
-Stable tag:        1.5.1
+Stable tag:        1.6
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Author:            Stephen Walker
@@ -89,14 +88,11 @@ Simply click on the abbreviation in the editor (the button will be highlighted),
 
 When you apply the quote format to your text, a popup will appear where you can enter an ISO 639-1 language code (e.g., 'fr' for French, 'es' for Spanish) and optionally a citation URL.
 
-== Screenshots ==
-
-1. Inline formatting buttons in the paragraph block toolbar
-2. Abbreviation popup for entering or editing the full form
-3. Quote language and citation popup for internationalization
-4. Front-end display of semantic text formats
 
 == Changelog ==
+
+= 1.6 =
+* Updated custom Semantic Blockquote blocks to Block API version 3 for WordPress 7.0 compatibility.
 
 = 1.5.0 =
 * Added the **Semantic Blockquote** block that outputs `<figure><blockquote>…</blockquote><figcaption>…</figcaption></figure>`.
@@ -119,6 +115,9 @@ When you apply the quote format to your text, a popup will appear where you can 
 * Added ability to edit existing abbreviations by clicking on them
 
 == Upgrade Notice ==
+
+= 1.6 =
+Updates custom blocks to Block API version 3 for WordPress 7.0 compatibility.
 
 = 1.5.0 =
 Adds the Semantic Blockquote block (figure + blockquote + optional figcaption).
