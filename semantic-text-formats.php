@@ -1,11 +1,12 @@
 <?php
 /**
- * Plugin Name:       Semantic Text Formats
- * Plugin URI:        https://flyingw.press
+ * Plugin Name:       Semantic Text Formats for WP
+ * Plugin URI:        https://uplink.press
+ * * Update URI:       https://uplink.press/plugins/semantic-text-format-for-wp
  * Description:       Adds inline quote, citation, and abbreviation formatting to paragraph blocks
-* Version:           1.6
-* Requires at least: 6.8
- * Requires PHP:      7.4
+* Version:           1.6.1
+* Requires at least: 6.9.4
+ * Requires PHP:      8.3
  * Author:            Stephen Walker
  * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
