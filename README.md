@@ -1,12 +1,13 @@
 === Semantic Text Formats for WP ===
 
 Tags:              semantic, quote, citation, abbreviation, definition
-Tested up to:      6.9
-Stable tag:        1.6
+Tested up to:      7.0.0
+Stable tag:        1.6.1
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 Author:            Stephen Walker
-Plugin URI:        https://flyingw.press
+Plugin URI:        https://uplink.press
+Update URI:       https://uplink.press/plugins/semantic-text-format-for-wp
 Enhance your content with semantic HTML elements for quotes, citations, abbreviations, and definitions.
 
 == Description ==
@@ -35,7 +36,7 @@ These options appear in the paragraph block toolbar alongside bold, italic, and 
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/semantic-text-formats` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/semantic-text-format-for-wp` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. The inline formatting options will automatically appear in the paragraph block toolbar
 
@@ -90,6 +91,9 @@ When you apply the quote format to your text, a popup will appear where you can 
 
 
 == Changelog ==
+
+= 1.6.1 =
+* Updated folder name and tested on WP 7.
 
 = 1.6 =
 * Updated custom Semantic Blockquote blocks to Block API version 3 for WordPress 7.0 compatibility.
