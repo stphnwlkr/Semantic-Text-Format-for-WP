@@ -1,3 +1,6 @@
+# This is being replaced and will be available on WordPress.org
+This plugin was rebuilt from the ground up nd is currently under review. The new plugin will be called Uplink Editorial Semantics. As part of the rebuild, there are new features: data attributes for spans and links, and aria labels for links. I highly recommend deleting this legacy version and using the new version. The legacy version will no longer receive updates.
+
 === Semantic Text Formats for WP ===
 
 Tags:              semantic, quote, citation, abbreviation, definition
